@@ -1,0 +1,11 @@
+sudo: false
+language: python
+python:
+  - '3.4'
+install: "./etc/install.sh"
+script: "./etc/build.sh"
+env:
+  global:
+    secure: "FekP5WJKQSIzwN7KONLaeC342DaTL2LnyKG7rl3OKwt9JLVn9zwYUQ8Q3bKsgXP05jrxpT/o+yXd16wGM/UjYkwtk1weZnXGud4mqn8nLEZff7QyNuOng6i0hEHhos4nQBskL7ww6ZW/mdTy6vGH0v5G5/pe9M0HRCNR1lyuRu/wlavGHPm6aj2TR7F10hP0tOh3zDJNsKTict1WALJsolS1fSBnTGjqyXLhdPQog/77zkIdY5h3Aizg6x6dbgeDfLypO/zH3Onsz1QyURW89tmOjLLIWGqB4qWIa0KPmOL4X3tVaXRWhrexF9vV4xqDzeWEiwDILSMWZWZYkpCaTFNQgL3eDl/AqF/Qcc9rDLdKHDjxlityIhd51VgZG+C+efVn61Mi9KfJuISsBZ032AAalXGXyRNRFq9sFugM2K7C+2xqeiRgzOuW2Ths7BLu4Yi5Iuc4Wc9y7QVJFeYOHTthHB3DDv/e5GwiN9wzzIrizT3BJrm4HCpi5hotKrN6wZIzKmvb6rLTS45YUlw7k1cMyD4TDZsUbIY6Th1XliXi07UDq/4D2MoDs6X7GOil9Zabk1UL1+tR9s99Gqzr1yQtLqrA2fMB8wCFB0QNr3Hb9L+bwPDO0od0Dg/uMxA5RQ1mXJ/WVKRXjffz2D1MgglhQdqHliBZQPVcr15lvrA="
+notifications:
+  email: false
